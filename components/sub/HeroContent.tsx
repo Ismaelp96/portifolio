@@ -35,7 +35,8 @@ const HeroContent = () => {
           <span>
             Providing
             <span className="text-transparent from-purple-500 to-cyan-500 bg-gradient-to-r bg-clip-text">
-              the best
+              {" "}
+              the best{" "}
             </span>
             project exprience
           </span>

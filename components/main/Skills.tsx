@@ -11,7 +11,8 @@ import SkillText from "../sub/SKillText";
 const Skills = () => {
   return (
     <section
-      className="relative flex h-full flex-col items-center justify-center gap-3 overflow-hidden py-20"
+      id="skills"
+      className="relative z-40 flex h-full flex-col items-center justify-center gap-3 overflow-hidden pb-6"
       style={{ transform: "scale(0.9)" }}
     >
       <SkillText />

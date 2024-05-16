@@ -13,12 +13,12 @@ const Navbar = () => {
             height={70}
             className="hover:animate-slowspin cursor-pointer"
           />
-          <span className="text-gray-300 ml-2.5 hidden font-bold transition-colors duration-300 hover:text-[#b49bff] md:block">
-            WebChain Dev
+          <span className="ml-2.5 hidden font-bold text-gray-300 transition-colors duration-300 hover:text-[#b49bff] md:block">
+            Ismael Oliveira
           </span>
         </a>
         <div className="flex h-full w-[500px] items-center justify-between md:mr-20">
-          <div className="text-gray-200 mr-[15px] flex h-auto w-full items-center justify-between rounded-full border border-[#7042f861] bg-[#0300145e] px-5 py-2.5">
+          <div className="mr-[15px] flex h-auto w-full items-center justify-between rounded-full border border-[#7042f861] bg-[#0300145e] px-5 py-2.5 text-gray-200">
             <a
               href="#about-me"
               className="cursor-pointer transition-colors duration-300 hover:text-[#b49bff]"
