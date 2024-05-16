@@ -20,7 +20,7 @@ const HeroContent = () => {
       <div className="m-auto flex h-full w-full flex-col justify-center gap-5 text-start">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box border border-[#7042f88b] px-[7px] py-[8px] opacity-[0.9]"
+          className="Welcome-box border border-[#7042f88b] px-[10px] py-[8px] opacity-[0.9]"
         >
           <SparklesIcon className="mr-[10px] h-5 w-5 text-[#b49bff]" />
           <h1 className="Welcome-text text-[13px]">
@@ -35,8 +35,7 @@ const HeroContent = () => {
           <span>
             Providing
             <span className="text-transparent from-purple-500 to-cyan-500 bg-gradient-to-r bg-clip-text">
-              {" "}
-              the best{" "}
+              the best
             </span>
             project exprience
           </span>
