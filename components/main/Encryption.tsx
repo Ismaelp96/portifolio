@@ -8,7 +8,7 @@ import Image from "next/image";
 const Encryption = () => {
   return (
     <section className="relative -mt-[240px] h-full min-h-screen w-full overflow-hidden">
-      <div className="absolute left-[50%] top-[22rem] z-20 w-full -translate-x-[50%] space-y-2">
+      <div className="absolute left-[50%] top-[16rem] z-20 w-full -translate-x-[50%] space-y-2">
         <motion.div
           variants={slideInFromTop}
           className="text-center text-[40px] font-medium text-gray-200"

@@ -44,8 +44,8 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="my-5 max-w-[600px] text-lg text-gray-400"
         >
-          Sou desenvolvedor front-end, com experiência voltada a sites, mobile.
-          Confira meus projetos e habilidades!
+          Sou desenvolvedor front-end, voltado a sites, mobile. Confira meus
+          projetos e habilidades!
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}

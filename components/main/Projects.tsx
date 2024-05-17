@@ -2,7 +2,10 @@ import ProjectCard from "../sub/ProjectCard";
 
 const Projects = () => {
   return (
-    <section className="relative z-20 -mt-[180px] flex flex-col items-center justify-center py-20">
+    <section
+      className="relative z-20 -mt-[180px] flex flex-col items-center justify-center py-20"
+      id="projects"
+    >
       <h2 className="mb-5 bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-[40px] font-semibold text-transparent">
         Meus Projetos
       </h2>
@@ -35,7 +38,7 @@ const Projects = () => {
           src="/card-05.png"
           title="IMDb"
           descrition="Clone do site IMDb"
-          href="https://imdb-next-mu.vercel.app/movie/653346"
+          href="https://imdb-next-mu.vercel.app/"
         />
         <ProjectCard
           src="/card-06.png"
