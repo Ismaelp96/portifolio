@@ -13,7 +13,6 @@ const Navbar = () => {
             title="Desenvolvedor"
             width={24}
             height={24}
-            className="fill-current-[#b49bff] text-[#b49bff]"
           />
           <span className="ml-2.5 hidden font-bold text-gray-300 transition-colors duration-300 group-hover:text-[#b49bff] md:block">
             Ismael Oliveira
