@@ -1,10 +1,4 @@
-import {
-  Backend_skill,
-  Frontend_skill,
-  Full_stack,
-  Other_skill,
-  Skill_data,
-} from "@/constants";
+import { Backend_skill, Frontend_skill } from "@/constants";
 import SKillDataProvider from "../sub/SkillDataProvider";
 import SkillText from "../sub/SKillText";
 
@@ -12,21 +6,10 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="relative z-40 flex h-full flex-col items-center justify-center gap-3 overflow-hidden pb-6"
+      className="relative z-40 flex h-full flex-col items-center justify-center gap-3 overflow-hidden py-20"
       style={{ transform: "scale(0.9)" }}
     >
       <SkillText />
-      <div className="mt-4 flex flex-wrap items-center justify-around gap-5">
-        {Skill_data.map((image, index) => (
-          <SKillDataProvider
-            key={index}
-            src={image.Image}
-            index={index}
-            height={image.height}
-            width={image.width}
-          />
-        ))}
-      </div>
       <div className="mt-4 flex flex-wrap items-center justify-around gap-5">
         {Frontend_skill.map((image, index) => (
           <SKillDataProvider
@@ -40,28 +23,6 @@ const Skills = () => {
       </div>
       <div className="mt-4 flex flex-wrap items-center justify-around gap-5">
         {Backend_skill.map((image, index) => (
-          <SKillDataProvider
-            key={index}
-            src={image.Image}
-            index={index}
-            height={image.height}
-            width={image.width}
-          />
-        ))}
-      </div>
-      <div className="mt-4 flex flex-wrap items-center justify-around gap-5">
-        {Full_stack.map((image, index) => (
-          <SKillDataProvider
-            key={index}
-            src={image.Image}
-            index={index}
-            height={image.height}
-            width={image.width}
-          />
-        ))}
-      </div>
-      <div className="mt-4 flex flex-wrap items-center justify-around gap-5">
-        {Other_skill.map((image, index) => (
           <SKillDataProvider
             key={index}
             src={image.Image}

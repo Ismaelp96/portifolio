@@ -23,37 +23,35 @@ const HeroContent = () => {
           className="Welcome-box border border-[#7042f88b] px-[10px] py-[8px] opacity-[0.9]"
         >
           <SparklesIcon className="mr-[10px] h-5 w-5 text-[#b49bff]" />
-          <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
-          </h1>
+          <h1 className="Welcome-text text-[13px]">Desenvolvedor Front-End</h1>
         </motion.div>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="text-white mt-6 flex h-auto w-auto max-w-[600px] flex-col gap-6 text-6xl font-bold"
+          className="mt-6 flex h-auto w-auto max-w-[600px] flex-col gap-6 text-6xl font-bold text-white"
         >
           <span>
-            Providing
-            <span className="text-transparent from-purple-500 to-cyan-500 bg-gradient-to-r bg-clip-text">
+            Consiga
+            <span className="bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent">
               {" "}
-              the best{" "}
+              a melhor{" "}
             </span>
-            project exprience
+            experiência
           </span>
         </motion.div>
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-gray-400 my-5 max-w-[600px] text-lg"
+          className="my-5 max-w-[600px] text-lg text-gray-400"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          Sou desenvolvedor front-end, com experiência voltada a sites, mobile.
+          Confira meus projetos e habilidades!
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="button-primary text-white max-w-[200px] cursor-pointer rounded-lg py-2 text-center"
+          className="button-primary max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white"
         >
-          Learn More!
+          Saiba mais
         </motion.a>
       </div>
 

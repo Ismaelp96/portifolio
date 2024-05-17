@@ -6,13 +6,6 @@ const Navbar = () => {
     <div className="fixed top-0 z-50 h-[65px] w-full bg-[#03001417] px-10 shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md">
       <div className="m-auto flex h-full w-full items-center justify-between px-2.5">
         <a href="#about-me" className="flex h-auto w-auto items-center">
-          <Image
-            src={"/NavLogo.png"}
-            alt="logo"
-            width={70}
-            height={70}
-            className="hover:animate-slowspin cursor-pointer"
-          />
           <span className="ml-2.5 hidden font-bold text-gray-300 transition-colors duration-300 hover:text-[#b49bff] md:block">
             Ismael Oliveira
           </span>
@@ -23,19 +16,19 @@ const Navbar = () => {
               href="#about-me"
               className="cursor-pointer transition-colors duration-300 hover:text-[#b49bff]"
             >
-              About me
+              Sobre
             </a>
             <a
               href="#skills"
               className="cursor-pointer transition-colors duration-300 hover:text-[#b49bff]"
             >
-              Skills
+              Habilidades
             </a>
             <a
               href="#projects"
               className="cursor-pointer transition-colors duration-300 hover:text-[#b49bff]"
             >
-              Projects
+              Projetos
             </a>
           </div>
         </div>
