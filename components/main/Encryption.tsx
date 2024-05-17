@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Encryption = () => {
   return (
-    <div className="relative -mt-[240px] h-full min-h-screen w-full overflow-hidden">
+    <section className="relative -mt-[240px] h-full min-h-screen w-full overflow-hidden">
       <div className="absolute left-[50%] top-[22rem] z-20 w-full -translate-x-[50%] space-y-2">
         <motion.div
           variants={slideInFromTop}
@@ -52,7 +52,7 @@ const Encryption = () => {
           <h2 className="Welcome-text text-xs">🔐 Criptografia</h2>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

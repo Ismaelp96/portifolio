@@ -2,15 +2,17 @@ export const Socials = [
   {
     name: "Github",
     src: "/github-mark-white.svg",
+    href: "https://github.com/Ismaelp96",
   },
-
   {
     name: "LinkedIn",
     src: "icon-linkedin.svg",
+    href: "https://www.linkedin.com/in/ismael-oliveira-5b4a98135/",
   },
   {
     name: "Instagram",
     src: "/instagram.svg",
+    href: "https://www.instagram.com/Ismaelp96",
   },
 ];
 
