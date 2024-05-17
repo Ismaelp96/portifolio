@@ -6,8 +6,16 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 z-50 h-[65px] w-full bg-[#03001417] px-10 shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md">
       <div className="m-auto flex h-full w-full items-center justify-between px-2.5">
-        <a href="#about-me" className="flex h-auto w-auto items-center">
-          <span className="ml-2.5 hidden font-bold text-gray-300 transition-colors duration-300 hover:text-[#b49bff] md:block">
+        <a href="#about-me" className="group flex h-auto w-auto items-center">
+          <Image
+            src="/logo-dev.svg"
+            alt="Desenvolvedor"
+            title="Desenvolvedor"
+            width={24}
+            height={24}
+            className="fill-current-[#b49bff] text-[#b49bff]"
+          />
+          <span className="ml-2.5 hidden font-bold text-gray-300 transition-colors duration-300 group-hover:text-[#b49bff] md:block">
             Ismael Oliveira
           </span>
         </a>
