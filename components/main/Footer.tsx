@@ -37,7 +37,7 @@ const Footer = () => {
           />
           <nav className="mb-4 flex h-auto w-full items-center justify-around">
             <Link
-              href={"#"}
+              href={"https://www.linkedin.com/in/ismael-oliveira-5b4a98135/"}
               className="my-[15px] flex items-center transition-colors duration-300 hover:text-[#b49bff]"
             >
               <RxLinkedinLogo />
