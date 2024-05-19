@@ -30,7 +30,7 @@ const Encryption = () => {
         autoPlay
         playsInline
         preload="false"
-        className="absolute left-0 top-0 z-10 w-full"
+        className="absolute left-0 top-0 z-0 w-full"
         src="/encryption.webm"
       />
       <div className="group absolute left-[50%] top-[50%] z-20 flex h-auto w-auto -translate-x-[50%] cursor-pointer flex-col items-center">

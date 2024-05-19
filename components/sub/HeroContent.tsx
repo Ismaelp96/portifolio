@@ -9,6 +9,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroContent = () => {
   return (
@@ -47,12 +48,18 @@ const HeroContent = () => {
           Sou desenvolvedor front-end, voltado a sites, mobile. Confira meus
           projetos e habilidades!
         </motion.p>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="button-primary max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white"
+        <Link
+          href="https://github.com/Ismaelp96/"
+          title="Link para o github"
+          target="_blank"
         >
-          Saiba mais
-        </motion.a>
+          <motion.span
+            variants={slideInFromLeft(0.8)}
+            className="button-primary flex max-w-[200px] items-center justify-center rounded-lg py-2 text-white"
+          >
+            Saiba mais
+          </motion.span>
+        </Link>
       </div>
 
       <motion.div
