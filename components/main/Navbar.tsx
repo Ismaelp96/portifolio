@@ -49,7 +49,7 @@ const Navbar = () => {
                 alt={social.name}
                 width={24}
                 height={24}
-                className="cursor-pointer transition-all duration-300 hover:opacity-70"
+                className="cursor-pointer transition-all duration-300 hover:opacity-70 "
               />
             </Link>
           ))}

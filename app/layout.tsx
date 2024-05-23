@@ -8,7 +8,7 @@ import Footer from "@/components/main/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ismael Portfolio",
+  title: "Ismael.dev",
   description:
     "Um pouco mais sobre minha viagem pelo universo da programação! 🚀",
 };
@@ -23,7 +23,7 @@ export default function RootLayout({
       <body
         className={`${inter.className}  overflow-y-auto overflow-x-hidden bg-[#030014]`}
       >
-        {/* <StarsCanvas /> */}
+        <StarsCanvas />
         <Navbar />
         {children}
         <Footer />
