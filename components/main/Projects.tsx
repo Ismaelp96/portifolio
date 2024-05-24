@@ -58,12 +58,12 @@ const Projects = () => {
           descrition="Exemplo de portifólio em 3D"
           href="https://ismael-ps5e7e8rz-ismaelp96s-projects.vercel.app/"
         />
-        <ProjectCard
+        {/* <ProjectCard
           src="/card-09.png"
           title="X - Twitter"
           descrition="Nextjs X - twitter clone"
           href="https://x-twitter-alpha.vercel.app/"
-        />
+        /> */}
       </div>
     </section>
   );
