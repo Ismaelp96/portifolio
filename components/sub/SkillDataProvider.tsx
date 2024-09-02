@@ -9,6 +9,7 @@ type SkillDataProviderProps = {
   width: number;
   height: number;
   index: number;
+  className?: string;
 };
 
 const SKillDataProvider = ({
@@ -16,6 +17,7 @@ const SKillDataProvider = ({
   width,
   height,
   index,
+  className,
 }: SkillDataProviderProps) => {
   const { ref, inView } = useInView({ triggerOnce: true });
   const imageVariants = {
@@ -33,7 +35,13 @@ const SKillDataProvider = ({
       custom={index}
       transition={{ delay: index * animationDelay }}
     >
-      <Image src={src} width={width} height={height} alt="SKill Image" />
+      <Image
+        src={src}
+        width={width}
+        height={height}
+        alt="SKill Image"
+        className="h-12 w-12 lg:h-auto lg:w-auto"
+      />
     </motion.div>
   );
 };

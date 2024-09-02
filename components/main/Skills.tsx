@@ -6,11 +6,11 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="relative z-40 flex h-full flex-col items-center justify-center gap-3 overflow-hidden py-20"
+      className="relative z-40 flex h-full flex-col items-center justify-center gap-3 overflow-hidden py-0 pb-16 lg:py-20"
       style={{ transform: "scale(0.9)" }}
     >
       <SkillText />
-      <div className="mt-4 flex flex-wrap items-center justify-around gap-5">
+      <div className="mt-2 flex flex-wrap items-center justify-around gap-2 lg:mt-4 lg:gap-5">
         {Frontend_skill.map((image, index) => (
           <SKillDataProvider
             key={index}
@@ -21,7 +21,7 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="mt-4 flex flex-wrap items-center justify-around gap-5">
+      <div className="mt-2 flex flex-wrap items-center justify-around gap-5 lg:mt-4">
         {Backend_skill.map((image, index) => (
           <SKillDataProvider
             key={index}
