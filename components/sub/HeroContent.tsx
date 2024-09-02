@@ -43,7 +43,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="my-5 max-w-full text-base text-gray-400 lg:max-w-[600px] lg:text-lg"
+          className="bg-primary my-5 max-w-full rounded-lg p-2 text-base text-white lg:max-w-[600px] lg:bg-transparent lg:text-lg lg:text-gray-400"
         >
           Sou desenvolvedor front-end, voltado a sites, mobile. Confira meus
           projetos e habilidades!
