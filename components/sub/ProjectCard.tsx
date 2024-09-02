@@ -17,7 +17,7 @@ const ProjectCard = ({ href, src, title, descrition }: ProjectCardProps) => {
     >
       <div className="relative h-[243px] w-full overflow-hidden after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-full after:bg-gradient-to-r after:from-purple-500 after:to-cyan-500">
         <Image
-          className="h-full w-full object-cover transition-all duration-300 group-hover:scale-105"
+          className="h-full w-full bg-cover object-cover transition-all duration-300 group-hover:scale-105"
           src={src}
           alt={title}
           width={1000}

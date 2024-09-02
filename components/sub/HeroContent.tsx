@@ -16,7 +16,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="z-[20] mt-40 flex w-full flex-row items-center justify-center px-20"
+      className="relative z-[20] mt-24 flex w-full flex-row items-start justify-start px-5 lg:mt-40 lg:items-center lg:justify-center lg:px-20"
     >
       <div className="m-auto flex h-full w-full flex-col justify-center gap-5 text-start">
         <motion.div
@@ -29,7 +29,7 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="mt-6 flex h-auto w-auto max-w-[600px] flex-col gap-6 text-6xl font-bold text-white"
+          className="mt-6 flex h-auto w-auto max-w-full flex-col gap-3 text-3xl font-bold text-white lg:max-w-[600px] lg:gap-6 lg:text-6xl"
         >
           <span>
             Consiga
@@ -43,7 +43,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="my-5 max-w-[600px] text-lg text-gray-400"
+          className="my-5 max-w-full text-base text-gray-400 lg:max-w-[600px] lg:text-lg"
         >
           Sou desenvolvedor front-end, voltado a sites, mobile. Confira meus
           projetos e habilidades!
@@ -55,7 +55,7 @@ const HeroContent = () => {
         >
           <motion.span
             variants={slideInFromLeft(0.8)}
-            className="button-primary flex max-w-[200px] items-center justify-center rounded-lg py-2 text-white"
+            className="button-primary flex max-w-full items-center justify-center rounded-lg py-2 text-white lg:max-w-[200px]"
           >
             Saiba mais
           </motion.span>
@@ -64,13 +64,14 @@ const HeroContent = () => {
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="flex h-full w-full items-center justify-center"
+        className="absolute left-0 top-[130px] z-0 flex h-full w-full items-center justify-center lg:relative lg:top-0"
       >
         <Image
           src="/mainIconsdark.svg"
           alt="work icons"
           height={650}
           width={650}
+          className="rotate-img "
         />
       </motion.div>
     </motion.div>

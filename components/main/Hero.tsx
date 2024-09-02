@@ -10,7 +10,7 @@ const Hero = () => {
         loop
         className="absolute left-0 top-[-340px]  z-[1] h-full w-full rotate-180 object-cover "
       >
-        <source src="/blackhole.webm" type="video/webm" />
+        <source src="/blackhole.mp4" type="video/mp4" />
       </video>
       <HeroContent />
     </section>

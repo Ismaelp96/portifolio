@@ -41,7 +41,7 @@ const Skills = () => {
             loop
             muted
             playsInline
-            src="/cards-video.webm"
+            src="/cards-video.mp4"
           />
         </div>
       </div>

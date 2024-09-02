@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 const SkillText = () => {
   return (
-    <div className="relative z-20 flex h-auto w-full flex-col items-center justify-center">
+    <div className="relative z-20 flex h-auto w-full flex-col items-start justify-start lg:items-center lg:justify-center">
       <motion.div
         variants={slideInFromTop}
         className="Welcome-box relative border border-[#7042f88b] px-[10px] py-[8px] opacity-[0.9]"
@@ -22,7 +22,7 @@ const SkillText = () => {
       </motion.div>
       <motion.div
         variants={slideInFromLeft(0.5)}
-        className="mb-[15px] mt-2.5 text-center text-3xl font-medium text-white"
+        className="mb-[15px] mt-2.5 text-left text-3xl font-medium text-white lg:text-center"
       >
         Criando aplicações com tecnologias consolidadas!
       </motion.div>

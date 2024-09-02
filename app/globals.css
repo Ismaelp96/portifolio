@@ -61,10 +61,19 @@
   fill: #b49bff;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
+.rotate-img {
+  transform: rotateY(180deg);
+}
+
+@media (min-width: 1024px) {
+  .rotate-img {
+    transform: rotateX(0deg);
+  }
+}
+
 .scrollbar-hidden {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .scrollbar-hidden::-webkit-scrollbar {
   display: none;

@@ -3,13 +3,13 @@ import ProjectCard from "../sub/ProjectCard";
 const Projects = () => {
   return (
     <section
-      className="relative z-20 -mt-[180px] flex flex-col items-center justify-center py-20"
+      className="relative z-20 -mt-[180px] flex flex-col items-center justify-center py-10 lg:py-20"
       id="projects"
     >
       <h2 className="mb-5 bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-[40px] font-semibold text-transparent">
         Meus Projetos
       </h2>
-      <div className="grid h-full w-full grid-cols-1 flex-col gap-10 px-10 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid h-full w-full grid-cols-1 flex-col gap-10 px-5 md:grid-cols-2 lg:grid-cols-3 lg:px-10">
         <ProjectCard
           src="/card-01.png"
           title="Dk Trainers"
@@ -58,12 +58,18 @@ const Projects = () => {
           descrition="Exemplo de portifólio em 3D"
           href="https://ismael-ps5e7e8rz-ismaelp96s-projects.vercel.app/"
         />
-        {/* <ProjectCard
+        <ProjectCard
           src="/card-09.png"
-          title="X - Twitter"
-          descrition="Nextjs X - twitter clone"
-          href="https://x-twitter-alpha.vercel.app/"
-        /> */}
+          title="Belmicro Energy"
+          descrition="Proprostas de energia solar"
+          href="https://belmicroenergy.com.br"
+        />
+        <ProjectCard
+          src="/card-10.png"
+          title="Education"
+          descrition="Tecnologia na educação"
+          href="https://belmicroeducation.com.br"
+        />
       </div>
     </section>
   );
