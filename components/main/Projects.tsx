@@ -6,7 +6,7 @@ const Projects = () => {
       className="relative z-20 -mt-[180px] flex flex-col items-center justify-center py-10 lg:py-20"
       id="projects"
     >
-      <h2 className="mb-5 bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-[40px] font-semibold text-transparent">
+      <h2 className="mb-5 bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text  text-2xl font-semibold text-transparent lg:text-[40px]">
         Meus Projetos
       </h2>
       <div className="grid h-full w-full grid-cols-1 flex-col gap-10 px-5 md:grid-cols-2 lg:grid-cols-3 lg:px-10">

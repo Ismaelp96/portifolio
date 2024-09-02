@@ -55,7 +55,7 @@ const HeroContent = () => {
         >
           <motion.span
             variants={slideInFromLeft(0.8)}
-            className="button-primary flex max-w-full items-center justify-center rounded-lg py-2 text-white lg:max-w-[200px]"
+            className="button-primary mt-10 flex max-w-full items-center justify-center rounded-lg py-2 text-white lg:max-w-[200px]"
           >
             Saiba mais
           </motion.span>

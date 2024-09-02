@@ -25,10 +25,10 @@ const ProjectCard = ({ href, src, title, descrition }: ProjectCardProps) => {
         />
       </div>
       <div className="p-4">
-        <h3 className="text-2xl font-semibold text-white transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-cyan-500 group-hover:to-purple-500 group-hover:bg-clip-text group-hover:text-transparent">
+        <h3 className="text-xl font-semibold text-white transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-cyan-500 group-hover:to-purple-500 group-hover:bg-clip-text group-hover:text-transparent lg:text-2xl">
           {title}
         </h3>
-        <p className="mt-2 text-gray-300">{descrition}</p>
+        <p className="mt-2 text-sm text-gray-300 lg:text-base">{descrition}</p>
       </div>
     </Link>
   );
