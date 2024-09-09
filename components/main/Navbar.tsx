@@ -15,7 +15,7 @@ const Navbar = () => {
             height={24}
             className="h-6 w-6 lg:h-[24px] lg:w-[24px]"
           />
-          <span className="ml-2.5 hidden font-bold text-gray-300 transition-colors duration-300 group-hover:text-[#b49bff] md:block">
+          <span className="ml-2.5 text-sm font-bold text-gray-300 transition-colors duration-300 group-hover:text-[#b49bff] lg:text-base">
             Ismael Oliveira
           </span>
         </a>
