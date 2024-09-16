@@ -70,6 +70,12 @@ const Projects = () => {
           descrition="Tecnologia na educação"
           href="https://belmicroeducation.com.br"
         />
+        <ProjectCard
+          src="/card-11.png"
+          title="HQ Eletro"
+          descrition="Produtos belmicro"
+          href="https://www.hqeletro.com.br"
+        />
       </div>
     </section>
   );
