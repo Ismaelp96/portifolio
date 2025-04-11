@@ -76,6 +76,12 @@ const Projects = () => {
           descrition="Produtos belmicro"
           href="https://www.hqeletro.com.br"
         />
+           <ProjectCard
+          src="/card-12.png"
+          title="Belmicro - Institucional"
+          descrition="Site Institucional"
+          href="https://belmicro.com.br/"
+        />
       </div>
     </section>
   );
