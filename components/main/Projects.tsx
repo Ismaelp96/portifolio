@@ -82,6 +82,12 @@ const Projects = () => {
           descrition="Site Institucional"
           href="https://belmicro.com.br/"
         />
+           <ProjectCard
+          src="/card-13.png"
+          title="Pomodoro - React + Typescript"
+          descrition="Pomodoro"
+          href="https://ignite-timer-ismael.netlify.app/"
+        />
       </div>
     </section>
   );
