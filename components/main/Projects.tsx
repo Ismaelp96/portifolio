@@ -11,16 +11,17 @@ const Projects = () => {
       </h2>
       <div className="grid h-full w-full grid-cols-1 flex-col gap-5 px-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-10 lg:px-10">
         <ProjectCard
-          src="/card-01.png"
-          title="Dk Trainers"
-          descrition=""
-          href="https://projectdktrainers.netlify.app/"
+          src="/card-05.png"
+          title="IMDb"
+          descrition="Clone do site IMDb"
+          href="https://imdb-next-mu.vercel.app/"
         />
+
         <ProjectCard
-          src="/card-02.png"
-          title="Blizzard"
-          descrition="Baseado no site da blizzard"
-          href="https://project-blizzard-codeboost.netlify.app/"
+          src="/card-13.png"
+          title="Pomodoro - React + Typescript"
+          descrition="Pomodoro"
+          href="https://ignite-timer-ismael.netlify.app/"
         />
         <ProjectCard
           src="/card-03.png"
@@ -29,16 +30,10 @@ const Projects = () => {
           href="https://devjamas-whatif.vercel.app/"
         />
         <ProjectCard
-          src="/card-04.png"
-          title="NFTBoost"
-          descrition="Site fictício de venda de NFT"
-          href="https://nft-boost-ruddy.vercel.app/"
-        />
-        <ProjectCard
-          src="/card-05.png"
-          title="IMDb"
-          descrition="Clone do site IMDb"
-          href="https://imdb-next-mu.vercel.app/"
+          src="/card-08.png"
+          title="3D"
+          descrition="Exemplo de portifólio em 3D"
+          href="https://ismael-ps5e7e8rz-ismaelp96s-projects.vercel.app/"
         />
         <ProjectCard
           src="/card-06.png"
@@ -47,16 +42,10 @@ const Projects = () => {
           href="https://pokemon-by-ismael.netlify.app/"
         />
         <ProjectCard
-          src="/card-07.png"
-          title="Dunia"
-          descrition=""
-          href="https://stunning-griffin-515115.netlify.app/"
-        />
-        <ProjectCard
-          src="/card-08.png"
-          title="3D"
-          descrition="Exemplo de portifólio em 3D"
-          href="https://ismael-ps5e7e8rz-ismaelp96s-projects.vercel.app/"
+          src="/card-02.png"
+          title="Blizzard"
+          descrition="Baseado no site da blizzard"
+          href="https://project-blizzard-codeboost.netlify.app/"
         />
         <ProjectCard
           src="/card-09.png"
@@ -71,22 +60,10 @@ const Projects = () => {
           href="https://belmicroeducation.com.br"
         />
         <ProjectCard
-          src="/card-11.png"
-          title="HQ Eletro"
-          descrition="Produtos belmicro"
-          href="https://www.hqeletro.com.br"
-        />
-           <ProjectCard
           src="/card-12.png"
           title="Belmicro - Institucional"
           descrition="Site Institucional"
           href="https://belmicro.com.br/"
-        />
-           <ProjectCard
-          src="/card-13.png"
-          title="Pomodoro - React + Typescript"
-          descrition="Pomodoro"
-          href="https://ignite-timer-ismael.netlify.app/"
         />
       </div>
     </section>
